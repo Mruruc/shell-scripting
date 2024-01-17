@@ -1,0 +1,26 @@
+String Comparisons:
+
+[ "$string1" = "$string2" ] - Checks if string1 is equal to string2
+[ "$string1" != "$string2" ] - Checks if string1 is not equal to string2
+[ -z "$string1" ] - Checks if string1 has a length of zero
+Numeric Comparisons:
+
+[ $num1 -eq $num2 ] - Checks if num1 is equal to num2
+[ $num1 -ne $num2 ] - Checks if num1 is not equal to num2
+[ $num1 -lt $num2 ] - Checks if num1 is less than num2
+[ $num1 -le $num2 ] - Checks if num1 is less than or equal to num2
+[ $num1 -gt $num2 ] - Checks if num1 is greater than num2
+[ $num1 -ge $num2 ] - Checks if num1 is greater than or equal to num2
+File Tests:
+
+[ -e $file ] - Checks if file exists
+[ -f $file ] - Checks if file is a regular file (not a directory)
+[ -d $dir ] - Checks if dir is a directory
+[ -r $file ] - Checks if file is readable
+[ -w $file ] - Checks if file is writable
+[ -x $file ] - Checks if file is executable
+
+
+
+
+

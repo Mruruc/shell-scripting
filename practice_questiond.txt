@@ -1,0 +1,31 @@
+1) Deleting all *.o files from directories pk1, pk2 ...pk5. Before deleting,
+ the file name should be printed on the terminal screen and you should be asked to confirm the deletion (y/n)
+
+2) Moving all files with the extension specified by the user (the script should ask for the extension) to the directory
+ given as the first argument of the script. If the given folder does not exist, you must first create it.
+
+3) A script that searches all subdirectorirs for files with the names given by the script arguments. 
+Once found, print the following message: A file named ... is located in the directory ....
+
+4) Collects information about each subdirectory contained in the directory given as an argument, 
+including: the name of the subdirectory and the number of files in it (ls ... |wc –l).
+
+5) If the name given as an argument is the name of a direcctory, then list the contents of the directpry, 
+specifying file types, otherwise provide full information about the file (ls –l) and the file type (file statement). Repeat the action for all arguments.
+
+6) Checking whether the file given as an argument exists and printing an appropriate message on the screen.
+ If the file exists, the following text should appear: a file with the given name exists, otherwise the file should be created so that its first line is: File created: and the current date/time. Repeat the action for all arguments
+
+7) Find in which directories given in the path there is a program with the name given by the argument.
+ With the appropriate message: the file ... (does not) exist in the directory ... Repeat the action for all arguments. Useful function: tr
+
+8) Delete *.tmp files older than those specified in the c.time file from all subdirectories of the current directory
+
+9) Starting from your home directory, search for the oldest file in the tree. Use the find command and more.
+
+10) a script that will search for files with the name given in the script parameter.
+ The search is to be performed in the directory specified in the parameter and all its subdirectories
+
+11) comparing the contents of the file with the given name as a parameter with all files whose names appear in the file named "filelist"
+
+12) counting the total number of words from the first three lines of files starting with "p" or "k"

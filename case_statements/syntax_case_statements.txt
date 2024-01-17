@@ -1,0 +1,17 @@
+case expression in
+    pattern1)
+        # Code to execute if expression matches pattern1
+        ;;
+    pattern2)
+        # Code to execute if expression matches pattern2
+        ;;
+    ...
+    patternN)
+        # Code to execute if expression matches patternN
+        ;;
+    *)
+        # Default code to execute if no patterns match
+        ;;
+esac
+
+

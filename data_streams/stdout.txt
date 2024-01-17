@@ -1,0 +1,3 @@
+stdin.sh
+stdout.sh
+stdout.txt
